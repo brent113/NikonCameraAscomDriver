@@ -69,7 +69,7 @@ namespace ASCOM.Nikon
         /// <summary>
         /// Driver description that displays in the ASCOM Chooser.
         /// </summary>
-        private static string driverDescription = "ASCOM Camera Driver for Nikon.";
+        private static string driverDescription = "ASCOM Camera Driver for Nikon";
 
         internal static string comPortProfileName = "COM Port"; // Constants used for Profile persistence
         internal static string comPortDefault = "COM1";

@@ -22,5 +22,17 @@ namespace ASCOM.Nikon.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DriverId {
+            get {
+                return ((string)(this["DriverId"]));
+            }
+            set {
+                this["DriverId"] = value;
+            }
+        }
     }
 }
